@@ -1,0 +1,17 @@
+{
+  "name": "vr-multiplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "author": "Eric Sexton",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^8.2.4",
+    "snowpack": "^3.0.11",
+    "three": "^0.124.0"
+  }
+}

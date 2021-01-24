@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyC6GdyWGxt6onpNndVf2pHuKGuOimKmTsc",
+            authDomain: "serverless-vr-multiplayer-demo.firebaseapp.com",
+            databaseURL: "https://serverless-vr-multiplayer-demo-default-rtdb.firebaseio.com",
+            projectId: "serverless-vr-multiplayer-demo",
+            storageBucket: "serverless-vr-multiplayer-demo.appspot.com",
+            messagingSenderId: "701286062355",
+            appId: "1:701286062355:web:3254408f77a17894cd62e6"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    
+    <p id="login-message">You must login to use application</p>
+
+    <script type="module" src="vrapp.js"></script>
+    
+    <script type="module" src="auth.js"></script>
+</body>
+
+</html>

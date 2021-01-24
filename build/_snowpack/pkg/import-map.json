@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "three": "./three.js",
+    "three/examples/jsm/geometries/BoxLineGeometry.js": "./three/examples/jsm/geometries/BoxLineGeometry.js",
+    "three/examples/jsm/webxr/VRButton.js": "./three/examples/jsm/webxr/VRButton.js",
+    "three/examples/jsm/webxr/XRControllerModelFactory.js": "./three/examples/jsm/webxr/XRControllerModelFactory.js"
+  }
+}
